@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Store</title>
+</head>
+<body>
+
+  <header style="padding: 10px;">
+    <h1>Young Tech</h1>
+  </header>
+
+  <main>
+    <section id="register" style="padding: 10px;">
+      <h2>Register</h2>
+      <form action="submit" method="post">
+        <fieldset>
+          <legend>Personal Information</legend>
+
+          <label for="fullname">Full Name:</label><br>
+          <input type="text" id="fullname" name="fullname" required><br><br>
+
+          <label for="email">Email Address:</label><br>
+          <input type="email" id="email" name="email" required autocomplete="email"><br><br>
+
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" name="username" placeholder="HAPPY!@" required minlength="7"><br><br>
+
+          <label for="password">Password:</label><br>
+          <input type="password" id="password" name="password" required minlength="6"><br><br>
+
+          <input type="submit" value="Register">
+        </fieldset>
+      </form>
+    </section>
+
+    <section id="products" style="padding: 10px;">
+      <h2>Available Items</h2>
+      <ul>
+        <li>💻 Computers</li>
+        <li>🎮 Games</li>
+        <li>⌨️ Keyboards</li>
+        <li>🎧 Headphones</li>
+      </ul>
+    </section>
+
+    <section id="table-section" style="padding: 10px;">
+      <h2>Product Price Table</h2>
+      <table border="1" cellpadding="5" cellspacing="0">
+        <thead>
+          <tr>
+            <th>Item</th>
+            <th>Brand</th>
+            <th>Price (KES)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Computer</td>
+            <td>Dell</td>
+            <td>65,000</td>
+          </tr>
+          <tr>
+            <td>Game Console</td>
+            <td>Sony PS5</td>
+            <td>80,000</td>
+          </tr>
+          <tr>
+            <td>Keyboard</td>
+            <td>Logitech</td>
+            <td>4,500</td>
+          </tr>
+          <tr>
+            <td>Headphones</td>
+            <td>JBL</td>
+            <td>7,000</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="media" style="padding: 10px;">
+      <h2>Video: Powerful PC Setup</h2>
+      <video width="480" height="270" controls>
+        <source src="your‑pc‑video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+
+</body>
+</html>
